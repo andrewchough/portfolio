@@ -1,0 +1,39 @@
+/* ====== BODY ====== */
+body {
+	font-family: Open Sans, Helvetica, Serif;
+}
+
+.blog-post {
+	position: relative;
+}
+/* ====== HEADERS ====== */
+.hundred-days {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.title {
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+}
+
+.date {
+	position: relative;
+	margin: auto;
+	text-align: center;
+	top: 10px;
+}
+
+/* ====== TEXT ====== */
+.blog-text {
+	text-align: left;
+	margin: auto;
+	top: 3vh;	
+	width: 65%;
+	position: relative;
+	float: center;
+	line-height: 28px;
+	color: #4c4c4c;
+}
