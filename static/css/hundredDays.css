@@ -7,6 +7,10 @@ body {
 .blog-post {
 	position: relative;
 }
+
+a {
+	background-color: transparent;
+}
 /* ====== HEADERS ====== */
 @media (min-width: 768px) {
 	.navbar-custom {
@@ -15,6 +19,9 @@ body {
 	}
 }
 
+.container>.navbar-header {
+	background-color: #f8f8f8;
+}
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, 
 .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, 
 .navbar-custom .navbar-brand:hover .navbar-custom .navbar-toggle {
@@ -22,10 +29,19 @@ body {
 	background: transparent;
 }
 
+.navbar-custom .navbar-toggle {
+	color: #000;
+	border-color: #000;
+}
+
 .navbar-custom .navbar-toggle:hover {
 	background-color: #18BC9C;
 	color: #fff;
 	border-color: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+	color: #000;
 }
 
 .navbar-custom .navbar-nav>li>a {
