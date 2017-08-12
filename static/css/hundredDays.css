@@ -17,11 +17,33 @@ a {
 		background: #f8f8f8;
 		padding: 10px;
 	}
+	.pictures {
+		height: 400px;
+	}
+
+	.navbar-custom .navbar-brand {
+		font-size: 1.75em;
+	}
+	.navbar-custom.affix {
+		background: #f8f8f8;
+		padding: 5px;
+	}
+}
+
+@media (max-width: 600px){
+	.pictures {
+		height: 200px;
+	}
 }
 
 .container>.navbar-header {
 	background-color: #f8f8f8;
 }
+
+.navbar-custom {
+	background: #f8f8f8;
+}
+
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, 
 .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, 
 .navbar-custom .navbar-brand:hover .navbar-custom .navbar-toggle {
@@ -38,6 +60,11 @@ a {
 	background-color: #18BC9C;
 	color: #fff;
 	border-color: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active,
+	.navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+	color: #000;
 }
 
 .navbar-custom .navbar-nav li a:hover {
@@ -84,6 +111,5 @@ a {
 
 .pictures {
 	position: relative;
-	height: 400px;
 	margin: 20 auto;
 }
