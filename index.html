@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="static/css/freelancer.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
 
     <!-- ProgressBar extended CSS -->
     <link rel="stylesheet" type="text/css" href="bootstrap-progressbar.css">
@@ -79,16 +79,18 @@
     <header>
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 header-block">
                     <img class="img-responsive" src="static/img/me.png" alt="">
                     <div class="intro-text">
                         <h1 class="name">Andrew Chough</h1>
                         <hr class="star-top">
-                        <span class="skills">Web Developer - UI/UX Designer</span>
+                        <span class="skills">UI/UX Designer - Software Developer</span>
+
                     </div>
                 </div>
             </div>
         </div>
+        
     </header>
 
     <!-- About Section -->
@@ -108,10 +110,14 @@
                 <div class="col-lg-8 col-lg-offset-2 name-intro">
                 	<p class = "sub-heading">Biography</p>
                 	<div class = "section-title-border"></div>
-                	<p id = "bio"> I was born and raised in the Bay Area located in northern California throughout my entire life. Over the years,
-                	I've become infatuated with music - ranging from hip-hop to jazz. I've been playing the saxophone for more than 11 years, participating in bands such as the Wind Ensemble in high school to the Marching Band here at BC.</br > <br />
+                	<p id = "bio"> 
+                    <span style = "font-size: 16px;">Full-time <span style = "font-weight: bold;">student.</span> Aspiring <span style = "font-weight: bold;">developer</span>. Professional <span style = "font-weight: bold;">layup misser</span>. Beach <span style = "font-weight: bold;">lover.</span><br><br></span>
 
-					In my off time away from school and side projects, you can find me around campus at the gym hanging off the pull-up bar while convincing myself that I'm not done growing or in one of many classrooms thinking of ways to improve organizations that I'm a part of. As an Asian-American, I've found a lot of joy in immersing myself in advocacy clubs such as the <a href = "https://www.facebook.com/AsianCaucus/">Boston College Asian Caucus</a> or the <a href = "https://www.facebook.com/bostoncollegeksa/">Boston College Koreans Student Association</a>.<br /><br />
+                    From a young age, I always found a fascination with computers - starting as young as four years old when I spent time each day to play Reader Rabbit on the PC. Since then, I've been lucky enough to have the chance to study more and more about computers and specially computer science and coding. Moving forward, I'd like to gain experience learning whatever I can. The world of computer science is limitless so I'm ready to go out there head on.<br><br>
+
+                    On a more personal side, I was born and raised in the Bay Area located in northern California throughout my entire life. Over the years, I've become infatuated with music - ranging from hip-hop to jazz. I've been playing the saxophone for more than 11 years, participating in bands such as the Wind Ensemble in high school to the Marching Band here at BC.</br > <br />
+
+					In my off time away from school and side projects, you can find me around campus at the gym hanging off the pull-up bar convincing myself that I'm not done growing or in one of many classrooms thinking of ways to improve organizations that I'm a part of. As an Asian-American, I've found a lot of joy in immersing myself in advocacy clubs such as the <a href = "https://www.facebook.com/AsianCaucus/">Boston College Asian Caucus</a> or the <a href = "https://www.facebook.com/bostoncollegeksa/">Boston College Koreans Student Association</a>.<br /><br />
 
                     </p>
 					<hr />
@@ -160,19 +166,19 @@
                 <div class="col-lg-5 col-lg-offset-2 name-intro">
 	                <p class = "sub-heading">Skills</p>
 	               	<div class = "section-title-border"></div>
+                        <p class = "experience-text">HTML/CSS/Javascript</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success two-sec-ease-in-out" role="progressbar" data-transitiongoal="85">
+                            <h1>Python</h1>
+                          </div>
+                        </div>
 	               		<p class = "experience-text">Python</p>
 	               	    <div class="progress">
-	               	      <div class="progress-bar two-sec-ease-in-out" role="progressbar" data-transitiongoal="70"></div>
-	               	    </div>
-	               	    <p class = "experience-text">HTML/CSS/Javascript</p>
-	               	    <div class="progress">
-	               	      <div class="progress-bar progress-bar-success two-sec-ease-in-out" role="progressbar" data-transitiongoal="70">
-	               	      	<h1>Python</h1>
-	               	      </div>
+	               	      <div class="progress-bar two-sec-ease-in-out" role="progressbar" data-transitiongoal="75"></div>
 	               	    </div>
 	               	    <p class = "experience-text">Graphic Design (Sketch, Photoshop)</p>
 	               	    <div class="progress">
-	               	      <div class="progress-bar progress-bar-info two-sec-ease-in-out" role="progressbar" data-transitiongoal="70"></div>
+	               	      <div class="progress-bar progress-bar-info two-sec-ease-in-out" role="progressbar" data-transitiongoal="75"></div>
 	               	    </div>
 	               	    <p class = "experience-text">Java</p>
 	               	    <div class="progress">
@@ -184,6 +190,8 @@
            	    	<p class = "sub-heading">Future Interests</p>
            	    	<ul style = "padding: 0px 0px 0px 40px;">
            	    		<li class = "working-on">Ruby</li>
+                        <li class = "working-on">Big Data</li>
+                        <li class = "working-on">Hadoop/Tableau</li>
            	    	</ul>	
            	    </div>
                 </div>
@@ -208,7 +216,7 @@
                                 <i class="fa fa-plus-circle fa-3x"></i>
                             </div>
                         </div>
-                        <img src="static/img/hurt-alert.png" class="img-responsive" alt="Cabin">
+                        <img src="static/img/hurt-alert.png" class="img-responsive" alt="Hurt Alert">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -218,7 +226,7 @@
                                 <i class="fa fa-plus-circle fa-3x"></i>
                             </div>
                         </div>
-                        <img src="static/img/poke.png" class="img-responsive" alt="Slice of cake">
+                        <img src="static/img/poke.png" class="img-responsive" alt="PokeLocate">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -228,7 +236,7 @@
                                 <i class="fa fa-plus-circle fa-3x"></i>
                             </div>
                         </div>
-                        <img src="static/img/cocoon.jpg" class="img-responsive" alt="Circus tent">
+                        <img src="static/img/cocoon.jpg" class="img-responsive" alt="Cocoon">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -238,7 +246,17 @@
                                 <i class="fa fa-plus-circle fa-3x"></i>
                             </div>
                         </div>
-                        <img src="static/img/collab.png" class="img-responsive" alt="Circus tent">
+                        <img src="static/img/collab.png" class="img-responsive" alt="Collab">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-plus-circle fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="static/img/FOCUS.png" class="img-responsive" alt="FOCUS: Map Of Your World">
                     </a>
                 </div>
             </div>
@@ -493,6 +511,41 @@
             </div>
         </div>
     </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>FOCUS: Map of Your World</h2>
+                            <hr class="star-popup">
+                            <img src="static/img/FOCUS.png" class="img-responsive img-centered" alt="">
+                            <p>A mobile application that finds events and places for users to go.
+                            <ul>
+                                <li class = "pop-up-list">Assembled prototypes and icons using Sketch and Photoshop for the application.</li>
+                                <li class = "pop-up-list">Built the site using HTML and CSS on top of the Wix prototype.</li>
+                                <li class = "pop-up-list">Can be found <a href = "https://www.mapofyourworld.com">here.</a>
+                            </ul>
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong><a href="https://github.com/kunaljaydesai/lecture-hub">July 2017</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -509,7 +562,7 @@
     <script src="static/js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="static/js/freelancer.min.js"></script>
+    <script src="static/js/script.min.js"></script>
 
     <!-- ProgressBar Javascript -->
     <script type="text/javascript" src="progressbar/bootstrap-progressbar.js"></script>

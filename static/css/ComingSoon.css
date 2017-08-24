@@ -1,0 +1,9 @@
+div#maincontent {
+	height: 700px;
+}
+
+.hundred-days {
+	margin: 200px auto;
+	text-transform: none;
+	font-family: Raleway, Helvetica, sans-serif;
+}
